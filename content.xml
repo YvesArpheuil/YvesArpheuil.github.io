@@ -6,8 +6,8 @@
     <property name='p2.compressed' value='true'/>
   </properties>
   <references size='4'>
-    <repository uri='http://adichatz.sourceforge.net/update' url='http://adichatz.sourceforge.net/update' type='1' options='0'/>
-    <repository uri='http://adichatz.sourceforge.net/update' url='http://adichatz.sourceforge.net/update' type='0' options='0'/>
+    <repository uri=https://github.com/YvesDrumbonnet/Adichatz-RCP-Update-Site' url=https://github.com/YvesDrumbonnet/Adichatz-RCP-Update-Site' type='1' options='0'/>
+    <repository uri=https://github.com/YvesDrumbonnet/Adichatz-RCP-Update-Site' url=https://github.com/YvesDrumbonnet/Adichatz-RCP-Update-Site' type='0' options='0'/>
     <repository uri='http://www.adichatz.org' url='http://www.adichatz.org' type='1' options='0'/>
     <repository uri='http://www.adichatz.org' url='http://www.adichatz.org' type='0' options='0'/>
   </references>
