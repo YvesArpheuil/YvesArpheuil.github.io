@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Update Site' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1585749447926'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='25'>
+    <artifact classifier='osgi.bundle' id='org.adichatz.engine.indigo.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='40014'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.resources' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='3611711'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adichatz.feature.bin' version='0.9.1.202004011555'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='9027'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.engine.e4' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='289265'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.jpa.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='457398'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.css.theme' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='54742'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.css.theme.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='24340'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adichatz.feature.source' version='0.9.1.202004011555'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='546'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.testing' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='1464783'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.adichatz.feature' version='0.9.1.202004011555'>
+      <properties size='2'>
+        <property name='download.contentType' value='application/zip'/>
+        <property name='download.size' value='8521'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.template' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='21959710'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.jpa' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='948025'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.tool' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='194868'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.common.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='67932'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.generator.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='963039'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.engine.indigo' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='26505'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.engine' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='960253'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.tool.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='77266'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.testing.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='493705'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.common' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='40730'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.studio' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='16065402'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.engine.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='894062'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.studio.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='1538409'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.generator' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='940353'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.adichatz.engine.e4.source' version='0.9.1.202004011555'>
+      <properties size='1'>
+        <property name='download.size' value='154693'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
